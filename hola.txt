@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿aagfsgasfasf
+=======
+﻿prueba 3.4
+>>>>>>> 7a39ee89640c91e79dcfd63ebdbd3bef6935f8c4
