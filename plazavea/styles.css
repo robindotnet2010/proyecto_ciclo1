@@ -12,35 +12,35 @@ div#general{
 div#cabecera{
 	float:left;
 
-	;
 }
 div#banner1{
 	float:left;
-	margin:auto;
-	margin-top:20px;
+	margin-top:2px;
 }
 
 div#banner2{
-	margin-top:20px;
+	margin-top:2px;
 	float:left;
+	
 }
 div#banner3{
-	margin-top:20px;
+	margin-top:-70px;
 	float:left;
+	
 }
 div#lateral{
-	margin-top:20px;
-	float:right;
+	margin-top:2px;
+	float:left;
 }
 
 
 div#laterall{
-	margin-top:20px;
+	margin-top:-90px;
 	float:left;	
 
 }
 
 div#lateralll{
-	margin-top:20px;
-	float:right;
+	margin-top:-2px;
+	float:left;
 }
