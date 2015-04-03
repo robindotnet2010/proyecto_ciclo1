@@ -1,0 +1,46 @@
+'{
+	margin:0px;
+	padding:0px;
+}
+div#general{
+	margin:auto;
+	width:921px;
+	height:900px;
+	background-color:white;
+}
+
+div#cabecera{
+	float:left;
+
+	;
+}
+div#banner1{
+	float:left;
+	margin:auto;
+	margin-top:20px;
+}
+
+div#banner2{
+	margin-top:20px;
+	float:left;
+}
+div#banner3{
+	margin-top:20px;
+	float:left;
+}
+div#lateral{
+	margin-top:20px;
+	float:right;
+}
+
+
+div#laterall{
+	margin-top:20px;
+	float:left;	
+
+}
+
+div#lateralll{
+	margin-top:20px;
+	float:right;
+}
