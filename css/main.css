@@ -8,6 +8,10 @@
  We are going to start  writing the styles from here
  */
 
+body{
+    background-color: #ecf0f1;
+}
+
 .river{
     background:#3498db !important;
 }
