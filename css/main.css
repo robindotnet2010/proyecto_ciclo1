@@ -21,16 +21,21 @@
 }
 
 .ghost{
-
-	background: transparent;
-	color: #F2F2F2;
-
-	/* CSS Transition */
-	-webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
-	-moz-transition: background .2s ease-in-out, border .2s ease-in-out;
-	-ms-transition: background .2s ease-in-out, border .2s ease-in-out;
-	-o-transition: background .2s ease-in-out, border .2s ease-in-out;
-	transition: background .2s ease-in-out, border .2s ease-in-out;
+    
+    text-shadow: none;
+    font-weight: 900;
+    background: transparent;
+    color: #050404;
+    border-color:#050404;
+    border: 2px solid;
+    /* CSS Transition */
+    -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -o-transition: background .2s ease-in-out, border .2s ease-in-out;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+    margin: 100px 0px;
+    margin-bottom: 0px;
 
 }
 
@@ -40,6 +45,9 @@
     background-position: 0px -500px;
 }
 
+.text-white{
+    color:white !important;
+}
 
 
 
