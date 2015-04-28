@@ -43,6 +43,10 @@ body{
 
 }
 
+.ghost:hover{
+
+}
+
 #banner{
     background-image: url("../img/banner3.jpg");
     background-size: 100%;
