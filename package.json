@@ -1,0 +1,9 @@
+{
+  "name": "Eptic",
+  "version": "0.0.1",
+  "description": "My little project",
+  "repository": "",
+  "dependencies": {
+    "statik": "~1.2.5"
+  }
+}
