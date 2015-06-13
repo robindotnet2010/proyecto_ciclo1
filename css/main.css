@@ -65,19 +65,15 @@ body{
     border-width: 2px;
     padding:8px;
     border-radius: 5px;
-
-    -webkit-animation: transicion 2s alternate;
-    animation: transicion 2s infinite alternate;
+    transition: all 0.3s ease;
 }
 
 a.btn2:link   
 {   
  text-decoration:none;   
 }   
-a.btn2:hover {color:white;} 
-@-webkit-keyframes transicion {
-    0%{background-color: transparent;}
-    100%{background-color: #102B4D;}
+a.btn2:hover{ color:white; 
+ background-color: #102B4D;
 }
 
 .DC {
