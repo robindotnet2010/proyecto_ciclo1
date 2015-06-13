@@ -1,0 +1,27 @@
+nav.navbar{
+	background-color: black !important;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+div.header-icon{
+	float: right;
+
+}
+img.icon{
+	margin-top: 3px;
+}
+
+img#icon-fb{
+	max-width: 10%;
+	float: right;
+	margin-right: 5px;
+	position: relative;
+}
+img#icon-insta{
+	max-width: 9.8%;
+	float: right;
+
+}
+body{
+	background-color: white !important;
+}
