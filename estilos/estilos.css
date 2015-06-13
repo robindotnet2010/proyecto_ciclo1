@@ -25,3 +25,8 @@ img#icon-insta{
 body{
 	background-color: white !important;
 }
+
+img#prodct{
+	max-width: 50%;
+	max-height: 50%;
+}
