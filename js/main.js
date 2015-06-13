@@ -1,5 +1,5 @@
 /* We are going to start writing our custom javascript here */
-
+/*
 $(document).ready(function(){
 
     var banner = document.getElementById("banner");
