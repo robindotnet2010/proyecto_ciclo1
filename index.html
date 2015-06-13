@@ -9,9 +9,9 @@
         <title>EPTIC</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--<link rel="stylesheet" href="overflow/assets/css/main.css">-->
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link rel="stylesheet" href="estilos/estilos.css">
-
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="scroll/css/smoothDivScroll.css" />
   
@@ -77,6 +77,15 @@
 <img style="max-width:100px; margin-top: -30px;"
              src="img/logo2.png"></a>
         </div>
+        <div class="navbar-header">
+          <ul class="top-section  ">
+            <li id="lista"><a href="">Home</a></li>
+            <li id="lista"><a href="">Mens</a></li>
+            <li id="lista"><a href="">Womens</a></li>
+            <li id="lista"><a href="">Accesories</a></li>
+            <li id="lista"><a href="">Contact Us</a></li>
+        </ul>
+        </div>
         <div class="navbar-header header-icon">
           <img src="img/icon-insta.png" class="icon" id="icon-insta">
           <img src="img/icon-fb.png" class="icon" id="icon-fb">
@@ -100,37 +109,67 @@
     </div>
     </article>
 
-    <div class="container">
+    <div class="container pannel">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-4">
-          <img src="productsimages/products/1.jpg" alt="" id="prodct">
-          <p class="description">Description</p>
+
+        <div class="col-md-4 producto" onfocus="description()">
+          <img src="productsimages/products/1.png" alt="" id="prodct">
+          <hr>
+          <p id="one">Hi</p>
+          <p id="price">$700</p>
           <img src="" alt="" class="market">
         </div>
-        <div class="col-md-4">
-          <img src="productsimages/products/2.jpg" alt="" id="prodct">
+
+        <div class="col-md-4 producto">
+          <img src="productsimages/products/2.png" alt="" id="prodct">
           <p class="description">Description</p>
+          <hr>
+          <p id="one">Hi</p>
+          <p id="price">$700</p>
           <img src="" alt="" class="market">
         </div>
-        <div class="col-md-4">
-          <img src="productsimages/products/3.jpg" alt="" id="prodct">
+
+        <div class="col-md-4 producto">
+          <img src="productsimages/products/4.png" alt="" id="prodct">
           <p class="description">Description</p>
+          <hr>
+          <p id="one">Hi</p>
+          <p id="price">$700</p>
           <img src="" alt="" class="market">
         </div>
-        <div class="col-md-4">
-          <img src="productsimages/products/4.jpg" alt="" id="prodct">
+
+        <div class="col-md-4 producto">
+          <img src="productsimages/products/6.png" alt="" id="prodct">
           <p class="description">Description</p>
+          <hr>
+          <p id="one">Hi</p>
+          <p id="price">$700</p>
           <img src="" alt="" class="market">
         </div>
+        
       </div>
 
-      <hr>
-
-      <footer>
-        
-      </footer>
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      
+      <!--
+      <section id="footer">
+      <ul class="icons">
+        <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+        <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+        <li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+        <li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
+        <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+        <li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+      </ul>
+      <div class="copyright">
+        <ul class="menu">
+          <li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </div>
+    </section>-->
+    </div>
+    
+     <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
@@ -173,6 +212,12 @@
       autoScrollingMode: "onStart"
     });
   });
+</script>
+
+<script>
+  function description(){
+    document.getElementById("one").innerHTML = "HOLA";
+  }
 </script>
     </body>
 </html>
