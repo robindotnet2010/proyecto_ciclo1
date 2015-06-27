@@ -82,9 +82,9 @@ p#price{
 
 li#lista{
 	font-family: "courier_primeregular","Courier",Courier,Arial,sans-serif;
-	color: white;
+	color: white !important;
 	font-size: 20px;
-	list-style: none !important;
+	list-style: none;
 	float: left;
 	margin-right: 40px;	
 	margin-top: 15px;
@@ -100,8 +100,95 @@ ul.top-section{
  	display: block !important;
  }
  a{
- 	color: white !important;
+ 	color: black;
  	text-decoration: none !important;
  }
+
+/*FOOTER*/
+
+.mib {
+    position: relative;
+    left: 27%;
+    width:900px;
+    list-style: none !important;
+    height:120px;
+    background:transparent;
+    top:-15%;
+ }
+.mib ul li{
+    float:left;
+}
+.mib ul li a{
+    display:inline-block;
+    text-decoration:none !important;
+    padding:10px 30px;
+    color:black;
+    font-size:40px;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    }
+
+
+.mib ul li .icon-facebook:hover{
+    color:#3A5795;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.mib ul li .icon-twitter:hover{
+    color:#5EA9DD;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.mib ul li .icon-instagram:hover{
+    color:#967459;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.mib ul li .icon-youtube:hover{
+    color:#E22C29;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.mib ul li .icon-spotify-with-circle:hover{
+    color:#96CC52;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.mib ul li .icon-soundcloud:hover{
+    color:#F85A10;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+h5 {
+    padding-bottom: 50px;
+    position:relative;
+    text-align: center;
+    color:black !important;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+h5 a{
+    text-decoration:none;
+    color:white;
+    border-bottom: 1px dotted white;
+    -webkit-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+     
+}
+h5 a:hover{
+    color:#2FC688;
+    border-bottom: 1px dotted #2FC688;
+    -webkit-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
 
 

@@ -57,7 +57,7 @@ body{
     color:white !important;
 }
 .btn2 {
-    font-family: Arial black;
+
     background-color:transparent;
     color:black;
     border-color: black;
@@ -67,24 +67,4 @@ body{
     border-radius: 5px;
     transition: all 0.3s ease;
 }
-
-a.btn2:link   
-{   
- text-decoration:none;   
-}   
-a.btn2:hover{ color:white; 
- background-color: #102B4D;
-}
-
-.DC {
-    border-style: solid;
-    border-color: black;
-}
-
-
-
-
-
-
-
 
