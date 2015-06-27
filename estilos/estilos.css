@@ -81,13 +81,19 @@ p#price{
 }
 
 li#lista{
-	font-family: "courier_primeregular","Courier",Courier,Arial,sans-serif;
+	font-family:'Josefin Sans', sans-serif;
 	color: white !important;
 	font-size: 20px;
 	list-style: none;
 	float: left;
 	margin-right: 40px;	
 	margin-top: 15px;
+}
+div.navbar-header ul li a{
+	color:white;
+}
+div.navbar-header ul li a:hover{
+	color:#3BC4CD;
 }
 
 ul.top-section{
