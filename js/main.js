@@ -22,20 +22,22 @@ function enviar() {
 
 	if (nombre == "") {
 		alert("Debes escribir el Nombre");
-		return;
+		return false;
 	}
 	if (apellido == "") {
 		alert("Debes escribir el Apellido");
-		return;
+		return false;
 	}
 	if (edad == "") {
 		alert("Debes escribir la Edad");
-		return;
+		return false;
 	}
 	if (edad != parseInt(edad)) {
-		alert("Ingrese un numero en Edad");
-		return;
+		alert("Ingrese un numero entero en Edad");
+		return false;
 	}
+
+	alert("Te contactaremos pronto " + nombre +"!!!!");
 }
 
 
